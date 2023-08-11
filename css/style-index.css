@@ -319,7 +319,6 @@ a{
     width: 100vw;
     height: 100vh;
     background-image: url(/images/img/Campesinos.png);
-
     background-position: over;
     background-repeat: no-repeat;
     margin: auto;
@@ -336,14 +335,14 @@ a{
     height: 100%;
 }
 .contenido6{
-    margin-top: 50px;
+    margin-top: 80px;
     font-size: 50px;
 }
 .contenidoimg{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+
     
 }
 .imglogo{
@@ -354,7 +353,7 @@ a{
 }
 .contenido{
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
 }
 .footer{
     display: flex;
