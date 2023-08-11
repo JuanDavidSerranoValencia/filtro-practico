@@ -1,0 +1,255 @@
+@font-face {
+    font-family: 'kollektif';
+    src: url(/font/Kollektif.ttf) format("truetype");
+    font-family: 'kollektif-italic';
+    src: url(/font/Kollektif-Italic.ttf) format("truetype");
+    font-family: 'kollektif-bold';
+    src: url(/font/Kollektif-Bold.ttf) format("truetype");
+    font-family: 'kollektif-bolditalic';
+    src: url(/font/Kollektif-BoldItalic.ttf) format("truetype");
+}
+
+.icon {
+    width: 28px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: "Kollektif";
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.contenedor {
+    margin: 10px 10px;
+    padding: 5px 5px;
+}
+
+.contenedor>p {
+    font-size: 25px;
+    font-family: 'kollektif-bold';
+    text-align: center;
+
+}
+
+hr {
+    width: 80%;
+    margin: auto;
+    background-color: black;
+}
+
+.image-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.bienvenida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.text {
+    font-size: 30px;
+    margin: 10px 20px 30px;
+    text-align: center;
+}
+
+.text1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 20px 20px 0px 20px;
+
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.section1 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.img2 {
+    width: 310px;
+    margin: 20px;
+}
+
+.img1 {
+    width: 350px;
+    margin: 20px;
+}
+
+.image-mapa {
+  
+    width: 320px;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    border: #0050f5;
+    height: 72px;
+    width: 246px;
+    border-radius: 40px;
+    background-color: #0050f5;
+    color: white;
+    font-size: 20px;
+
+}
+
+.datotitulo {
+    margin-top: 20px;
+}
+
+.datotxt {
+    margin: 20px 30px 47px;
+
+}
+
+.cambiotitulo {
+    margin-top: 14px;
+}
+
+.cambiotxt {
+    margin: 20px 30px 35px;
+}
+
+.secIzquierda {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.tituloServicio {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.status {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+
+.statusCont {
+    text-align: justify;
+    width: 100%;
+}
+
+.btnRed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    border: #f50000;
+    height: 25px;
+    width: 80px;
+    border-radius: 25px;
+    background-color: #f50000;
+    color: white;
+    font-size: 10px;
+
+}
+
+.status1 {
+    font-size: 16px;
+}
+
+.status2 {
+    font-size: 12px;
+}
+
+.arreglo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.especi {
+    padding: 5px;
+    text-align: justify;
+    margin: auto;
+    margin-left: 15px;
+}
+
+.p1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.p2 {
+    font-size: 20px;
+}
+
+.tecnico>p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nomTec{
+    text-align: right;
+    font-size: 18px;
+}
+
+.celTec{
+    text-align: center;
+    font-size: 15px;
+}
+
+.btn2 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    border: #0050f5;
+    margin-left: 90%;
+    height: 30px;
+    width: 100px;
+    border-radius: 40px;
+    background-color: #0050f5;
+    color: white;
+    font-size: 15px;
+    flex-wrap: wrap;
+}
+

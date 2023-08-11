@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="../css/styles.css">
+
+    </head>
+    <body>
+        <button type="button" onclick="myFunction()"> Iniciar sesion</button>
+        <div class="popup" id="popup">
+            <div class="card">
+                <div class="card-icon">
+                    <i>
+                        <img class="icon" src="images/Icon simple-ifixit.png"
+                            alt="icono para salir de la tarjeta">
+                    </i>
+                </div>
+                <div class="card-header">
+                    <img src="images/logo.jpeg" width="230px"
+                        alt="logo de pagina web repair express!">
+                    <p>Por favor ingresa tu Repair Express ID</p>
+                </div>
+                <div class="card-form">
+                    <label for="id">
+                        <p>Repair Express ID</p>
+                    </label>
+                    <input class="form-input" type="text" name="id">
+                    <label for="clave">
+                        <p>Contraseña</p>
+                    </label>
+                    <input class="form-input" type="text" name="clave">
+                </div>
+                <div class="card-btn">
+                    <button type="button" class="btn">Ingresar</button>
+                    <button type="button" class="btn">Registrarse</button>
+                </div>
+                <hr class="card-line">
+                <div class="card-footer">
+                    <p style="font-size: smaller;">Tambien puedes utilizar</p>
+                    <i><img src="images/Icon awesome-calendar-alt.png" alt></i>
+                    <i><img src="images/Icon awesome-calendar-alt.png" alt></i>
+                    <i><img src="images/Icon awesome-calendar-alt.png" alt></i>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        function myFunction() {
+          var popup = document.getElementById("popup");
+          popup.style.visibility = "visible";
+        }
+    </script>
+</html>
